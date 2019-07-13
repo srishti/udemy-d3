@@ -22,7 +22,11 @@
 <body>
     <!-- drawing a rectangle as an SVG shape -->
     <svg id="container">
-        <rect id="rect"></rect>
+        <!--
+            x="5" => adjusts x-coordinate of rectangle by half of stroke-width to make outer-left stroke visible (default unit - px)
+            y="5" => adjusts y-coordinate of rectangle by half of stroke-width to make outer-top stroke visible (default unit - px)
+        -->
+        <rect id="rect" x="5" y="5"></rect>
     </svg>
 </body>
 </html>
